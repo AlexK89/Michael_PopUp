@@ -1,0 +1,160 @@
+/*http://maxpixel.freegreatpicture.com/static/photo/2x/Poppy-Field-Of-Poppies-Flowers-Flower-Field-63755.jpg */
+* {
+  font-family: "SF Pro Text";
+  font-size: 16px;
+}
+#popup {
+  background: url('./form.jpg')no-repeat center center;
+  background-position: right;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  height:550px;
+  width:550px;
+}
+.left-side {
+  position: relative;
+  top:60px;
+  background-color: rgba(255, 255, 255, .7);
+  width:310px;
+  height: 443px;
+  margin: auto;
+  color: #4A4A4A;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+.form_h3 {
+  font-family: "SF Pro Text";
+  font-weight: 400;
+  text-align: center;
+  position: relative;
+  font-size:1em;
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+.ht_imitation {
+  height: 4px;
+  width: 44px;
+  border-radius: 2px;
+  display: block;
+  margin: auto;
+  background: #409FB9;
+}
+
+.form_first_p {
+  font-family: "SF Pro Display";
+  font-weight: 400;
+  text-align: center;
+  font-size:1.8em;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+.form_h4 {
+  font-family: "SF Pro Display";
+  font-weight: 400;
+  text-align: center;
+  font-size:4em;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #F96678;
+}
+.form_second_p {
+  font-family: "SF Pro Display";
+  font-weight: 400;
+  font-size: 2.3em;
+  margin-top: -15px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.also_block {
+  text-align: center;
+  font-family: "SF Pro Text";
+  font-weight: 400;
+  font-size: 1em;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.input_1,
+.input_2 {
+  height:36px;
+  width: 250px;
+  display: block;
+  margin: auto;
+  margin-top: 7px;
+}
+
+.input_1 input,
+.input_2 input {
+  height:inherit;
+  width: 240px;
+  border:0;
+  padding-left: 10px;
+  border-radius: 8px;
+  font-size: 1em;
+  color: #9B9B9B;
+  font-weight: 100;
+}
+.submit {
+  display:block;
+  margin-top: 10px;
+}
+.submit button {
+  display: block;
+  margin:auto;
+  height: 36px;
+  width:250px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  color:#fff;
+  background: #8CC63F;
+  font-family: "SF Pro Text";
+  font-weight: 100;
+  transition: .4s;
+}
+.submit button:hover {
+  background: #9ddf46;
+  transition: .4s;
+}
+.form_third_p {
+  color: #4A4A4A;
+  text-align: center;
+  font-family: "SF Pro Text";
+  font-size: .7em;
+  margin-top:8px;
+}
+
+@media (max-width:600px) {
+  #popup {
+    height:540px;
+    width:300px;
+  }
+  .left-side {
+    top:0;
+    width:300px;
+    height: 540px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .form_h3 {
+    padding-top: 30px;
+    margin-bottom: 20px;
+  }
+  .form_second_p {
+    margin-top: -15px;
+    margin-bottom: 15px;
+  }
+  .also_block {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .input_1,
+  .input_2,
+  .submit {
+    margin-top: 17px;
+  }
+  .input_1 {
+    margin-top: 7px;
+  }
+}
